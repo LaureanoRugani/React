@@ -3,7 +3,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-function BasicExample() {
+
+function NavBar() {
 return (
     <Navbar bg="light" expand="lg">
     <Container>
@@ -22,6 +23,9 @@ return (
             <NavDropdown.Divider />
             <NavDropdown.Item href="#action/3.4">
                 Separated link
+            <h3>MARCA</h3>
+            <CartWidget />
+
             </NavDropdown.Item>
             </NavDropdown>
         </Nav>
@@ -31,4 +35,4 @@ return (
 );
 }
 
-export default BasicExample;
+export default NavBar;
