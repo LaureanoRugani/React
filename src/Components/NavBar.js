@@ -24,7 +24,7 @@ return (
             <NavDropdown.Item href="#action/3.4">
                 Separated link
             <h3>MARCA</h3>
-            <CartWidget />
+
 
             </NavDropdown.Item>
             </NavDropdown>

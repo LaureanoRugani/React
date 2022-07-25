@@ -1,17 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 import Container from './Container/Container';
-import Header from './Components/Header/ItemListContainer';
 import NavBar from './Components/NavBar';
 import Header from './Components/Header/ItemListContainer';
+import CartWidget from './Components/CartWidget';
 
 
 
 
 function App() {
   return <>
-    <Navbar />
+    <NavBar />
     <h2>Titulo</h2>
+    <Container />
+    <CartWidget />
     
   </>
 }

@@ -1,6 +1,6 @@
 function Container () {
     return (
-        <div style={estilos}>
+        <div>
             Hola mundo
         </div>
     );
