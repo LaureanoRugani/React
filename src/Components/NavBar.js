@@ -5,6 +5,10 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
 function NavBar() {
+
+    function CartWidget () {
+        
+    }
 return (
     <Navbar bg="light" expand="lg">
     <Container>
@@ -24,7 +28,8 @@ return (
             <NavDropdown.Item href="#action/3.4">
                 Separated link
             <h3>MARCA</h3>
-
+            
+            <CartWidget />
 
             </NavDropdown.Item>
             </NavDropdown>
@@ -36,3 +41,5 @@ return (
 }
 
 export default NavBar;
+
+

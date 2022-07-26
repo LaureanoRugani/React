@@ -5,16 +5,20 @@ import NavBar from './Components/NavBar';
 import Header from './Components/Header/ItemListContainer';
 import CartWidget from './Components/CartWidget';
 import Contador from './Components/ItemCount'
+import { useEffect } from 'react';
 
 
 
 
 function App() {
+
+  useEffect(() => {
+    console.log('App mounted');
+  },[Contador]);
   return <>
     <NavBar />
     <h2>Titulo</h2>
     <Container />
-    <CartWidget />
     <Contador></Contador>
     
   </>
