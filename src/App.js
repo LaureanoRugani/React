@@ -4,6 +4,7 @@ import Container from './Container/Container';
 import NavBar from './Components/NavBar';
 import Header from './Components/Header/ItemListContainer';
 import CartWidget from './Components/CartWidget';
+import Contador from './Components/ItemCount'
 
 
 
@@ -14,6 +15,7 @@ function App() {
     <h2>Titulo</h2>
     <Container />
     <CartWidget />
+    <Contador></Contador>
     
   </>
 }

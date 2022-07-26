@@ -4,7 +4,7 @@
 
 function CartWidget() {
     return(
-        <i class="bi bi-cart-fill"></i>
+        <div> <i class="bi bi-cart-fill"></i> </div>
     )
 }
 
