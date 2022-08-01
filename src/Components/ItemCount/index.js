@@ -27,8 +27,8 @@ function Contador({ stock, initial}) {
                 {contador}
             </p>
             <br />
-            <button onClick={agregarAlContador}>Agregar 1 al contador </button>
-            <button onClick={sacarAlContador}>Sacar 1 al contador </button>
+            <button onClick={agregarAlContador}>Agregar 1 pasajero </button>
+            <button onClick={sacarAlContador}>Eliminar 1 pasajero </button>
         </div>
     );
     // useEffect(() => {
