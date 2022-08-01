@@ -12,15 +12,9 @@ import { useEffect } from 'react';
 
 function App() {
 
-  useEffect(() => {
-    console.log('App mounted');
-  },[Contador]);
   return <>
     <NavBar />
-    <h2>Titulo</h2>
-    <Container />
-    <Contador></Contador>
-    
+    <Contador initial={1} stock={5}/>   
   </>
 }
 

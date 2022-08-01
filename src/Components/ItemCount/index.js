@@ -2,22 +2,24 @@ import { useState, useEffect} from 'react';
 
 
 
-function Contador( stock, initial, onAdd) {
+function Contador({ stock, initial}) {
     // const handlers = useState(0);
-    const [contador, setContador] = useState(1);
-    <Contador stock="5" initial="1" />
+    const [contador, setContador] = useState(initial);
 
 
 
     function agregarAlContador() {
+        if(contador < stock) {
         setContador(contador + 1);
-        console.log(contador);
+        }
     }
 
     function sacarAlContador() {
+        if(contador > 1) {
         setContador(contador - 1);
-        console.log(contador);
+        }
     }
+
 
     return(
         <div>
