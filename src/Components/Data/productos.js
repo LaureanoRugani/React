@@ -19,11 +19,3 @@ const Data = [
 ]
 
 
-
-
-const getFetch = new Promise ((resolve, reject)=>{
-    let condition=true
-    condition ? setTimeout(()=>{resolve(Data)}, 2000) : reject(console.log("error en base de datos"))
-})
-
-export default getFetch;

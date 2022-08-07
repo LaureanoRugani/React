@@ -7,8 +7,8 @@ import getFetch from "../Data/productos";
 
 
 export default function Item() {
-    function descrItem() {
-        return alert("¡Sitio en desarrollo");
+    function agregarProducto() {
+        return alert("Producto agregado");
     }
     const [Data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -39,8 +39,7 @@ export default function Item() {
                                 {prod.categoria}: <br/> {prod.nombre}
                             </Card.Title>
                             <Card.Text>${prod.precio}</Card.Text>
-                            <button onClick={descrItem}>
-                                ¡Ver descripcion del viaje!
+                            <button onClick={agregarProducto}>
                             </button>
                             <ItemCount  stock={prod.stock} initial={1} />
                         </Card.Body>
